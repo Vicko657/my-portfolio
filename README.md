@@ -7,6 +7,6 @@ Personal portfolio website showcasing my software engineering projects and backg
 
 ## Tech Stack
 
-**Languages**: ![HTML5](https://img.shields.io/badge/HTM5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white) ![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+**Languages**: ![HTML5](https://img.shields.io/badge/HTM5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
 
 **Deployment**: ![Netlify](https://img.shields.io/badge/Netlify-0B0D0E?style=flat-square&logo=netlify&logoColor=#00C7B7)
