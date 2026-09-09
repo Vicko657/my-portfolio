@@ -22,7 +22,7 @@ function Nav() {
             className="flex items-center justify-between lg:px-8. pt-5 pb-5 m-0 ps-20 pe-20 backdrop-blur-md"
           >
             <div className="flex lg:flex-1">
-              <a href="/" className="nav-logo font-medium text-xl m-1 p-1.5">
+              <a href="/" className="nav-logo font-semibold text-xl m-1 p-1.5">
                 <span className="sr-only"> victoriaolusegun </span>
                 victoriaolusegun
               </a>
@@ -60,7 +60,7 @@ function Nav() {
               <div className="flex items-center justify-between">
                 <a
                   href="/"
-                  className="nav-logo font-medium text-xl -m-1.5 p-1.5 "
+                  className="nav-logo font-semibold text-xl -m-1.5 p-1.5 "
                 >
                   <span className="sr-only "> victoriaolusegun </span>
                   victoriaolusegun
