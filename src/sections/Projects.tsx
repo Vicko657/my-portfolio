@@ -31,7 +31,7 @@ function Projects() {
               work={work}
               key={index}
               index={index + 5}
-              height={`h-50`}
+              height={`h-60`}
               style={`py-3`}
             />
           ))}
