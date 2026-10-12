@@ -59,7 +59,7 @@ export const projects = {
     },
     {
       title: "Wedding Seating Chart",
-      stack: ["React", "Supabase(PostgreSQL)", "Netlify"],
+      stack: ["React", "Supabase (PostgreSQL)", "Netlify"],
       img: { src: "guest_seating_app", alt: "Seating chart search bar" },
       summary:
         "Guest seating application built for a private wedding reception, used by guests to find their assigned tables.",
@@ -94,7 +94,7 @@ export const projects = {
       title: "Creative Portfolio Site",
       stack: ["React", "JavaScript", "Netlify"],
       img: { src: "femi_portfolio", alt: "Home page view of the portfolio" },
-      description:
+      summary:
         "Portfolio site for a multi-disciplinary creative, bringing their production, video and management work together in one place.",
       links: [
         {
@@ -111,7 +111,7 @@ export const projects = {
     {
       title: "Solace",
       summary:
-        "A affirmations AI generator which can be used daily to help boost your confidence and self-esteem.",
+        "A AI affirmations generator which can be used daily to help boost your confidence and self-esteem.",
       stack: ["React", "JavaScript", "Netlify"],
       links: [
         {
