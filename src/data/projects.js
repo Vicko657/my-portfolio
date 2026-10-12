@@ -10,7 +10,10 @@ export const projects = {
         "React",
         "Railway",
       ],
-      img: { src: "", alt: "" },
+      img: {
+        src: "view_app",
+        alt: "Dashboard view of the Interior Design Planner",
+      },
       summary:
         "Deployed REST API for interior designers to manage clients, projects tasks timelines and room specifications.",
       links: [
@@ -40,7 +43,10 @@ export const projects = {
         "Spring Security",
         "JUnit 5",
       ],
-      img: { src: "", alt: "" },
+      img: {
+        src: "trading_api",
+        alt: "JSON view of an endpoint for the trading api",
+      },
       summary:
         "Financial trading system for booking, validatin and montoring trades",
       links: [
@@ -54,7 +60,7 @@ export const projects = {
     {
       title: "Wedding Seating Chart",
       stack: ["React", "Supabase(PostgreSQL)", "Netlify"],
-      img: { src: "", alt: "" },
+      img: { src: "guest_seating_app", alt: "Seating chart search bar" },
       summary:
         "Guest seating application built for a private wedding reception, used by guests to find their assigned tables.",
       links: [
@@ -70,9 +76,9 @@ export const projects = {
       metrics: ["300+ guests used the application", "Event completed"],
     },
     {
-      title: "Bridal Shower RSVP App",
+      title: "Bridal Shower RSVP Application",
       stack: ["React", "Supabase (PostgreSQL)", "Netlify"],
-      img: { src: "", alt: "" },
+      img: { src: "guest_rsvp_app", alt: "RSVP form for bridal shower guests" },
       summary:
         "RSVP application built for a private bridal shower, allowing guests to confirm their attendance, dietary preferences and access event information",
       links: [
@@ -87,7 +93,7 @@ export const projects = {
     {
       title: "Creative Portfolio Site",
       stack: ["React", "JavaScript", "Netlify"],
-      img: { src: "", alt: "" },
+      img: { src: "femi_portfolio", alt: "Home page view of the portfolio" },
       description:
         "Portfolio site for a multi-disciplinary creative, bringing their production, video and management work together in one place.",
       links: [
