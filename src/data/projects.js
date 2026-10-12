@@ -48,7 +48,7 @@ export const projects = {
         alt: "JSON view of an endpoint for the trading api",
       },
       summary:
-        "Financial trading system for booking, validatin and montoring trades",
+        "Financial trading system for booking, validating and montoring trades",
       links: [
         {
           label: "github",
