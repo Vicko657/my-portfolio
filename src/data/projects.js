@@ -100,6 +100,8 @@ export const projects = {
         {
           label: "github",
           url: "https://github.com/Vicko657/femi-portfolio",
+        },
+        {
           label: "website",
           url: "https://femis-portfolio.netlify.app/",
         },
