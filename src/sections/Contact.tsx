@@ -1,14 +1,14 @@
 function Contact() {
   return (
-    <div className="relative isolate px-6 lg:px-8 text-left p-6 place-self-center lg:col-span-5 py-40">
+    <div className="relative isolate  text-left p-6 place-self-center lg:col-span-5 py-10 lg:py-40 px-15 md:px-15 lg:px-0">
       <h3 className="font-semibold text-center text-3xl">let's connect</h3>
 
-      <p className="pt-5 text-xs text-center w-150">
+      <p className="pt-5 text-xs text-center w-fit lg:w-150">
         I'm open to new opportunities including backend and full stack software
         engineering roles. Feel free to connect with me.
       </p>
 
-      <div className="mt-10 flex items-center justify-center gap-x-30">
+      <div className="mt-10 flex items-center justify-center gap-x-10 lg:gap-x-30">
         <a
           href="https://github.com/Vicko657"
           className="text-sm/6  outline p-3.5 hover:bg-indigo-400  hover:text-white  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
