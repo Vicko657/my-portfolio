@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div
-      className="relative isolate  text-left p-6 place-self-center lg:col-span-5 py-10 lg:py-40 px-15 md:px-15 lg:px-0"
+      className="relative isolate text-left  place-self-center lg:col-span-5 mx-auto py-10 lg:py-40 lg:px-8.  m-0  px-8 md:px-20 lg:px-20"
       id="contact"
     >
       <h3 className="font-semibold text-center text-3xl">let's connect</h3>

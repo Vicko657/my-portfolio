@@ -48,7 +48,7 @@ function ProjectCard({ work, index, height, style }: ProjectProps) {
 
         <p className="text-xs wrap-anywhere">{work?.summary}</p>
 
-        <div className="my-4 text-center grid justify-left grid-cols-2 gap-y-2 lg:grid-cols-4 gap-x-2 grid-auto-flow">
+        <div className="my-4 text-center grid justify-left grid-cols-2 gap-y-2 lg:grid-cols-3 gap-x-2 grid-auto-flow">
           {work.links?.map((link: any, index: number) => (
             <Button
               key={index}
