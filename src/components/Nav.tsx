@@ -19,7 +19,7 @@ function Nav() {
         <header className="fixed inset-x-0 top-0 z-50">
           <nav
             aria-label="Global"
-            className="flex items-center justify-between lg:px-8. pt-5 pb-5 m-0 ps-20 pe-20 backdrop-blur-md"
+            className="flex items-center justify-between lg:px-8. pt-5 pb-5 m-0  px-8 md:px-20 lg:px-20 backdrop-blur-md"
           >
             <div className="flex lg:flex-1">
               <a href="/" className="nav-logo font-semibold text-xl m-1 p-1.5">
