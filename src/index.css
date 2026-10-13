@@ -132,20 +132,13 @@ h5 {
   letter-spacing: -2;
   margin: 0 0 8px;
   text-transform: uppercase;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
 }
 
 h6 {
-  font-size: 14px;
   font-style: normal;
   line-height: 118%;
   letter-spacing: -2;
   margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
 }
 
 p {
