@@ -32,7 +32,7 @@ function Projects() {
               key={index}
               index={index + 5}
               height={`h-60`}
-              style={`py-3`}
+              style={`py-0 lg:py-3`}
             />
           ))}
         </div>
