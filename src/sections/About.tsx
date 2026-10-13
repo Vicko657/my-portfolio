@@ -3,7 +3,10 @@ import { skills } from "../data/skills";
 
 function About() {
   return (
-    <div className="relative isolate py-5 lg:py-20 lg:px-8  mt-10 lg:mt-20">
+    <div
+      className="relative isolate py-5 lg:py-20 lg:px-8  mt-10 lg:mt-20"
+      id="about"
+    >
       <div className="grid max-w-9xl mx-auto lg:gap-8 xl:gap-0 py-5 lg:py-5 lg:grid-cols-12 px-15 md:px-15 lg:px-0">
         <div className="text-left text-white mr-auto place-self-center p-6 lg:col-span-7 bg-indigo-400">
           <h5 className="text-left text-xs">About</h5>
