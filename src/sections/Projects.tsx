@@ -6,7 +6,7 @@ const { selected, other } = projects;
 function Projects() {
   return (
     <div className="relative isolate px-6 lg:px-8" id="work">
-      <div className="row mx-auto max-w-1xl px-15 md:px-15 lg:px-0">
+      <div className="row mx-auto max-w-1xl px-3 md:px-15 lg:px-0">
         <h5 className="text-left text-xs ">Selected Work</h5>
 
         <div className="pt-5 grid lg:grid-cols-3 text-left md:grid-cols-2">
@@ -22,7 +22,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="row mx-auto max-w-1xl mt-20 px-15 md:px-15 lg:px-0">
+      <div className="row mx-auto max-w-1xl mt-20 px-3 md:px-15 lg:px-0">
         <h5 className="text-left text-xs">Other Work</h5>
 
         <div className="pt-5 grid md:grid-cols-2 lg:grid-cols-4  text-left">

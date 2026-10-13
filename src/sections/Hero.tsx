@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="relative isolate px-6 lg:px-8 ">
-      <div className="grid max-w-9xl py-40 px-15 md:px-15 lg:px-0 lg:py-38 lg:grid-cols-12">
+      <div className="grid max-w-9xl py-40 px-3 md:px-15 lg:px-0 lg:py-38 lg:grid-cols-12">
         <div className="text-left place-self-center lg:col-span-9">
           <span className="text-xs w-3.5 bg-linear-to-r from-fuchsia-400 to-indigo-600 bg-clip-text text-transparent ">
             software engineer / avid learner / creative problem solver / uk,
