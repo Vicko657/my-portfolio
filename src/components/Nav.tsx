@@ -56,7 +56,7 @@ function Nav() {
             className="lg:hidden"
           >
             <div className="fixed inset-0 z-50" />
-            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto p-6  backdrop-blur-md sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+            <DialogPanel className="fixed inset-y-0 text-center right-0 z-50 w-full  h-full p-6  backdrop-blur-md sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
               <div className="flex items-center justify-between">
                 <a
                   href="/"
@@ -75,13 +75,15 @@ function Nav() {
                 </button>
               </div>
               <div className="mt-6 flow-root">
-                <div className=" divide-y divide-white/10">
-                  <div className="space-y-2 py-6">
+                <div className="divide-y divide-white/10">
+                  <div className="space-y-2 py-40">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-mx-3 block px-3 py-2 text-sm md:text-base  hover:text-indigo-400 focus:text-indigo-400  "
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-3 my-3 block px-3 py-2 text-lg justify-center align-middle
+                        md:text-base  hover:text-indigo-400 focus:text-indigo-400  "
                       >
                         {item.name}
                       </a>
