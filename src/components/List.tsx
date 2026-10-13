@@ -5,11 +5,11 @@ interface ListProps {
 function List({ data }: ListProps) {
   return (
     <>
-      <ul className="flex w-fit flex-wrap text-n-04 lg:block mt-2 backdrop-blur-md border border-black">
+      <ul className="flex w-fit flex-wrap text-n-04 lg:block mt-2 backdrop-blur-md border border-black border-b-0">
         {data.map((list: any, index: number) => (
           <li
             key={index}
-            className="relative min-w-62.5 p-3 lg:min-w-auto outline"
+            className="relative w-full p-3 lg:min-w-auto border-b"
           >
             <span className="text-xs text-left text-black w-2/5">
               {list.title}
