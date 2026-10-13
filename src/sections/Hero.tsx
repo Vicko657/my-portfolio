@@ -18,7 +18,7 @@ function Hero() {
           </p>
           <div className="mt-12 flex items-left justify-left gap-x-3">
             <a
-              href="#"
+              href="#work"
               className=" px-4.5 py-3 text-xs  shadow-xs outline hover:bg-indigo-400 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
             >
               View Selected Work
